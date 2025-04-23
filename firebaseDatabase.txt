@@ -1,0 +1,13 @@
+chats (collection)
+  └── chatName (document)
+      ├── isGroup: true
+      ├── createdAt: timestamp
+      ├── updatedAt: timestamp
+      ├── lastMessage: string
+      ├── lastMessageTime: timestamp
+      └── messages (subcollection)
+          └── message1 (document)
+              ├── senderId: string
+              ├── text: string
+              ├── timestamp: timestamp
+              └── readBy: { userId: timestamp }

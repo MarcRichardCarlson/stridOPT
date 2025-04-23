@@ -34,3 +34,12 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Firebase rules
+firestore.rules
+firestore.indexes.json
+storage.rules
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+.firebaserc
